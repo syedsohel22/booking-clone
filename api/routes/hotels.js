@@ -12,14 +12,16 @@ const router = express.Router();
 
 //Create
 router.post("/", createHotel);
+
 //update
 router.put("/:id", updateHotel);
-//delete
 
+//delete
 router.delete("/:id", deleteHotel);
 
 //get
 router.get("/:id", getHotel);
+
 //get all
 router.get("/", getHotels);
 
