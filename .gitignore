@@ -1,0 +1,46 @@
+# Node.js
+node_modules/
+
+# TypeScript
+*.tsbuildinfo
+*.tsbuildinfo.*
+
+# VS Code
+.vscode/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Build
+/build/
+
+# Dependency directories
+/.pnp/
+.pnp.js
+
+# Testing
+/coverage/
+
+# Local environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# MongoDB
+/data/db
+
+# Yarn
+.yarn/
+.yarnrc
+.yarn-integrity
+
+# Editor directories and files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
